@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+.container{
+    height: var(100vh - 37px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.footbols{
+    display: flex;
+    justify-content: center;
+}
+
+.ronaldo{
+    cursor: pointer;
+    height: 500px;
+    margin: 20px;
+}
+
+.messi{
+    cursor: pointer;
+    height: 500px;
+    margin: 20px;
+}
+
+.messi:hover{
+    background-color: orangered;
+}
+
+.ronaldo:hover{
+    background-color:darkgray;
+}
+
